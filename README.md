@@ -8,9 +8,9 @@ Requirements:
 * node.js 18.2.0+
 * typescript 4.7.2+
 
-Run `cd planit-backend` to enter the backend server directory
-Run `tsc index.ts` to build the app
-Run `PRIVKEY={path to privatekey.pem} FULLCHAIN={path to fullchain.pem} node .`
+Run `cd planit-backend` to enter the backend server directory  
+Run `tsc index.ts` to build the app  
+Run `PRIVKEY={path to privatekey.pem} FULLCHAIN={path to fullchain.pem} node .`  
 
 ## Starting angular test server to debug app
 
