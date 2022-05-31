@@ -12,11 +12,12 @@ Run `cd planit-backend` to enter the backend server directory
 Run `tsc index.ts` to build the app  
 Run `PRIVKEY={path to privatekey.pem} FULLCHAIN={path to fullchain.pem} node .`  
 
-## Starting angular test server to debug app
+## Starting Frontend angular test server to debug app
 
 Requirements:
 * node.js 18.2.0+
 * typescript 4.7.2+
 * Angular CLI 13.3.6+
 
-Run `npm start`
+Run `cd planit-frontend`  
+Run `npm start`  
