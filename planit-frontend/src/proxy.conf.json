@@ -1,0 +1,9 @@
+{
+	"/api": {
+		"target": "https://dev-local.colebianchi.com:8080",
+		"secure": true,
+		"pathRewrite": {"^/api" : ""},
+		"changeOrigin": true,
+		"logLevel": "debug"
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "planit-backend",
+  "version": "1.0.0",
+  "description": "Backend server for planit",
+  "main": "index.js",
+  "scripts": {
+    "test": "./run.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColeBianchi/planit.git"
+  },
+  "author": "Cole Bianchi",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ColeBianchi/planit/issues"
+  },
+  "homepage": "https://github.com/ColeBianchi/planit#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
