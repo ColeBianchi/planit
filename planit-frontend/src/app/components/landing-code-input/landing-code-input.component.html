@@ -1,6 +1,8 @@
 <form class="code-form">
 	<mat-form-field class="code-full-width" appearance="fill">
 		<mat-label>Enter planit code</mat-label>
-		<input (keyup)="onKeyup(codeinput.value)" matInput placeholder="111 222 333" #codeinput maxlength="11">
+		<input (keyup)="onKeyup(codeinput.value)" matInput placeholder="111 bbb 222" #codeinput maxlength="11">
+		<mat-hint class="mat-error" *ngIf="errors.isLengthWrong && codeinput.value">That ID is not long enough</mat-hint>
+		<mat-hint class="mat-error" *ngIf="errors.isInvalid && !errors.isLengthWrong  && codeinput.value">That ID could not be found</mat-hint>
 	</mat-form-field>
 </form>

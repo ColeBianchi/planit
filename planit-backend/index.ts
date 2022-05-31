@@ -23,6 +23,12 @@ const fake_db:planit[] = [
 	}
 ]
 
+const planit_not_found:planit = {
+	id: "",
+	owner: "Not Found",
+	open: false
+}
+
 https.createServer({ key: key, cert: cert}, (req, res) =>
 {
 	let queryData = url.parse(req.url, true).query;
@@ -42,7 +48,7 @@ https.createServer({ key: key, cert: cert}, (req, res) =>
 		else
 		{
 			res.setHeader("status", 200);
-			res.end("{}");
+			res.end(JSON.stringify(planit_not_found));
 		}
 	}
 	else

@@ -1,4 +1,4 @@
-# Planit
+# planit
 
 Full stack service to plan dates for events without the need for account sign-up.
 
